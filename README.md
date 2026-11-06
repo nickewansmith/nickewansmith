@@ -95,7 +95,7 @@ Finance compliance as an always-on monitoring agent that runs inside the custome
   <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" alt="Ethereum" />
   <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers" />
   <img src="https://img.shields.io/badge/Claude_Agent_SDK-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Agent SDK" />
-  <img src="https://img.shields.io/badge/Rust-learning-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust (learning)" />
+  <img src="./assets/badge-rust.svg" alt="Rust (learning)" height="20" />
 </p>
 
 ---
