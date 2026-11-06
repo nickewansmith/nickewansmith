@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Featured contribution: position-bound TP/SL for MetaMask Mobile perps">
+<style>
+.grow{animation:grow 6s ease-in-out infinite;transform-origin:700px 0}
+@keyframes grow{0%,15%{transform:scaleX(.45)}45%,70%{transform:scaleX(1)}100%{transform:scaleX(.45)}}
+.sz1{animation:a 6s infinite}.sz2{animation:b 6s infinite}
+@keyframes a{0%,28%{opacity:1}33%,88%{opacity:0}95%,100%{opacity:1}}
+@keyframes b{0%,28%{opacity:0}33%,88%{opacity:1}95%,100%{opacity:0}}
+.dash{animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-16}}
+</style>
+<rect width="1200" height="400" rx="18" fill="#0A0E0D"/>
+<rect x=".5" y=".5" width="1199" height="399" rx="18" fill="none" stroke="#1E2E28"/>
+<text x="56" y="62" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#FED100" letter-spacing="2">FEATURED SHIP</text>
+<text x="56" y="88" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" fill="#7E938A">MetaMask/metamask-mobile · Perps</text>
+<text x="54" y="146" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="38" font-weight="800" fill="#E8F0EC" letter-spacing="-1">Position-bound TP/SL</text>
+<text x="56" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#E8F0EC" opacity=".85">Take-profit / stop-loss orders that resize with</text>
+<text x="56" y="220" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#E8F0EC" opacity=".85">the position, so traders never re-adjust them by hand.</text>
+<text x="56" y="262" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#7E938A">Fixed positions showing TP/SL as “Not set” when multiple</text>
+<text x="56" y="284" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#7E938A">orders on Hyperliquid couldn't be matched to one position.</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+<rect x="56" y="320" width="118" height="30" rx="8" fill="#12241C"/><text x="115" y="340" text-anchor="middle" fill="#1FD17A">PR #19726</text>
+<rect x="184" y="320" width="98" height="30" rx="8" fill="#1A1A10"/><text x="233" y="340" text-anchor="middle" fill="#FED100">893b916</text>
+<rect x="292" y="320" width="130" height="30" rx="8" fill="#141B19"/><text x="357" y="340" text-anchor="middle" fill="#7E938A">Sep 15, 2025</text>
+</g>
+<!-- diagram -->
+<g transform="translate(640,60)">
+  <rect width="504" height="280" rx="14" fill="#0E1513" stroke="#1E2E28"/>
+  <text x="24" y="34" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#7E938A">ETH-PERP · LONG</text>
+  <text class="sz1" x="480" y="34" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#E8F0EC">size 1.0</text>
+  <text class="sz2" x="480" y="34" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1FD17A" opacity="0">size 2.2</text>
+  <g transform="translate(-640,0)"><g class="grow">
+    <rect x="700" y="76" width="420" height="4" rx="2" fill="#1FD17A"/>
+    <rect x="700" y="128" width="420" height="40" rx="8" fill="#1B3A2D" stroke="#1FD17A" stroke-opacity=".5"/>
+    <rect x="700" y="216" width="420" height="4" rx="2" fill="#F2555A"/>
+  </g></g>
+  <text x="60" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1FD17A">TP</text>
+  <text x="76" y="153" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#E8F0EC" opacity=".9">position</text>
+  <text x="60" y="240" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#F2555A">SL</text>
+  
+  <line x1="40" x2="40" y1="78" y2="218" stroke="#FED100" stroke-width="1.5" stroke-dasharray="4 4" class="dash"/>
+  <text x="24" y="266" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#FED100">bound → TP/SL scale with position size</text>
+</g>
+</svg>
